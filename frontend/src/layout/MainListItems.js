@@ -755,10 +755,10 @@ const MainListItems = (props) => {
             
             {user.super && (
               <ListItemLink
-                to="/logLauncher"
-                primary={i18n.t("mainDrawer.listItems.logLauncher")}
+                to="/loglauncher"
+                primary={i18n.t("mainDrawer.listItems.loglauncher")}
                 icon={<FiDatabase size={18} />}
-                isActive={isActivePath('/logLauncher')}
+                isActive={isActivePath('/loglauncher')}
                 collapsed={collapsed}
               />
             )}
